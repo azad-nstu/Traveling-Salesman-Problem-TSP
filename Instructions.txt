@@ -1,10 +1,7 @@
-Travelling-Salesman-Problem-TSP-
-Traveling Salesman Problem (TSP) is a well-known NP-hard problem that aims to find the optimal tour among different cities to visit each city exactly once and return to the original city. This directory includes all the graph data used for this experiment.
-
 This directory includes all the graph data used for this experiment.
-It also includes the main program "tsp_sol_final-12210325.py", output file "output.txt", Excel file "Result.xlsx" to organize the output, distance_figure.py, and time_figure.py to draw and store the result analysis graph, saved figures, etc.
+It also includes the main program "tsp_solutions.py", output file "output.txt", Excel file "Result.xlsx" to organize the output, distance_figure.py, and time_figure.py to draw and store the result analysis graph, saved figures, etc.
 
-tsp_sol_final-12210325.py 
+tsp_solutions.py 
 	- is the main programming file where 4 algorithms (Brute force, nearest neighbors, Genetic algorithm, and Proposed 2-step nearest neighbor) were implemented in 4 functions.
 	- The .graph file has to be in the same directory to run this and we can choose a different graph by selecting the file name in line 363. 
 	- To draw a graph, we can use the function "nodes_position = draw_graph(adj_matrix)" in line 373. If not necessary we can comment on it (especially for large graphs)
