@@ -1,6 +1,6 @@
 #########################################
 #           Abul Kalam Azad             #
-#           CWID: 12210325              #
+#                                       #
 #########################################
 
 # Reading Given Graph File, forming Full Adjacency Matrix, drawing the graph, Apply diffetent TSP algorithms, and finally draw the Tour graph.
